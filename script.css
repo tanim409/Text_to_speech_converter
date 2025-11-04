@@ -1,0 +1,92 @@
+body {
+  background-color: #222f3d;
+}
+
+.editorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+p {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.textEditor {
+  height: 250px;
+  width: 600px;
+  margin-top: 50px;
+  background-color: rgb(26, 26, 36);
+  color: white;
+  border: 1px solid black;
+}
+
+.textEditor::placeholder{
+    
+    margin-top: 20px;
+
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.controls button {
+  background-color: rgb(26, 26, 36);
+  color: black;
+  height: 40px;
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 35px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.controls button img {
+  height: 30px;
+  width: 5opx;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.controls button:hover {
+  border: 2px solid white;
+  color: white;
+}
+.controls button img:hover {
+  filter: brightness(0) invert(1);
+}
+.controls select {
+  background-color: rgb(26, 26, 36);
+  color: white;
+  height: 40px;
+  width: 300px;
+  padding: 0 20px;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 35px;
+  appearance: none;
+  background-image: url(image/dropdown.svg);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  cursor: pointer;
+}
+.controls select:hover {
+  border: 2px solid white;
+  color: white;
+  
+}
